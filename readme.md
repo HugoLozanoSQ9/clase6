@@ -60,4 +60,26 @@ De igual manera para escribir en el archivo se utiliza el m+etodo .write()
 
 Para crear un nuevo archivo de texto sin contenido, es poisble utilizar el modo 'x'
 
-## Palabra reservada with
+# Modulos
+
+Python es un lenguaje modular, ocease que se pueden separar diferentes partes del código en diferentes módulos
+
+¿Qué es un módulo?
+
+Un módulo en python se puede considerar una biblioteca, es un archivo que contiene un conjunto de funciones que se pueden incluir en un script de python
+
+También se le comoce como librería pero el término correcto es biblioteca
+
+## Sintaxis
+
+Cualquier archivo de python puede ser utilizado como un módulo.
+
+Para importar las funciones definidas en un módulo se utiliza la palabra reservada import
+
+### import
+Es posible importar śolo las funciones que se necesiten combinando las palabras reservadas from e import
+
+from especifica el módulo de dónde importar e import especifica las funciones (o variables) que queremos importar 
+
+Esto también se puede manejar con (from "script" import *)  aunque no se recomienda por que si existen variables o funciones que hallan sido declaradas en mi archivo main, estaría provocando sobreescrituras.
+

@@ -1,4 +1,4 @@
-#file = open('texto.txt','x')
-#file.close()
+file = open('texto.txt','x')
+file.close()
 
 
